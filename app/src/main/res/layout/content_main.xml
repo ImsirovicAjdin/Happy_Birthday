@@ -16,14 +16,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday, Dear"
-        android:textSize="25sp" />
+        android:textSize="36sp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:text="From, Your Love"
-        android:textSize="25sp" />
+        android:textSize="36sp" />
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
