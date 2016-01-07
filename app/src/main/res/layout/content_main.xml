@@ -11,12 +11,17 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.android.happybirthday.MainActivity"
     tools:showIn="@layout/activity_main">
-
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday, Dear"
         android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:textSize="36sp" />
     <TextView
         android:layout_width="wrap_content"
@@ -25,11 +30,9 @@
         android:layout_alignParentBottom="true"
         android:text="From, Your Love"
         android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:textSize="36sp" />
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/androidparty" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
