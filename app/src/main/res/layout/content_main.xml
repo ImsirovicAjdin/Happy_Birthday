@@ -22,6 +22,7 @@
         android:text="Happy Birthday, Dear"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
+        android:layout_margin="20dp"
         android:textSize="36sp" />
     <TextView
         android:layout_width="wrap_content"
@@ -31,6 +32,7 @@
         android:text="From, Your Love"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
+        android:layout_margin="20dp"
         android:textSize="36sp" />
 
     <Button
@@ -38,7 +40,7 @@
         android:layout_height="wrap_content"
         android:text="New Button"
         android:id="@+id/button"
-        android:layout_marginTop="33dp"
+        android:layout_marginTop="133dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
